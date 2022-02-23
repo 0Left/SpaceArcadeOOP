@@ -120,6 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToDie: 2
   shootSpeed: 1
+  shootDamage: 3
 --- !u!58 &4456313057842276541
 CircleCollider2D:
   m_ObjectHideFlags: 0

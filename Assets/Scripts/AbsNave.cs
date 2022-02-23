@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class AbsNave : MonoBehaviour
 {
-    protected int vidaBase;
+    protected float vidaBase;
     protected float speedBase;
     [HideInInspector]
     public float speedMultiplyed;
@@ -16,7 +16,7 @@ public abstract class AbsNave : MonoBehaviour
     //Move não se mostrou muito util de manter como metódo de todos, pois acredito que o fixedUpdate vá suprir
     //public abstract void Move();
     public abstract void Shoot();
-    public abstract void TakeDmg();
+    public abstract void TakeDmg(float dmgToTake);
     public abstract void Die();
     // Start is called before the first frame update
 

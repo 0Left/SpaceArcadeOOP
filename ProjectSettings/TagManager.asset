@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Player_Shoot
+  - Enemy_Shoot
+  - Bounds
+  - Enemy
   layers:
   - Default
   - TransparentFX

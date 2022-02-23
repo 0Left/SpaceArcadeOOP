@@ -118,8 +118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afb25bd856991d4ca32c14b9806f428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToDie: 1
-  shootSpeed: 2
+  timeToDie: 1.5
+  shootSpeed: 2.5
+  shootDamage: 1
 --- !u!58 &6542232161563395968
 CircleCollider2D:
   m_ObjectHideFlags: 0
